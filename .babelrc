@@ -1,0 +1,12 @@
+{
+    "presets": [
+        ["env", { //which environment we want it to work
+            "targets": {
+                "browsers": [
+                    "last 5 versions", //babel figures it out - can see documentation examples online
+                     "ie >= 8" //internet explore >= version 8
+                ]
+            }
+        }]
+    ]
+}
